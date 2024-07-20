@@ -1,0 +1,49 @@
+/* *{
+    background-color: hsl(352, 100%, 90%);
+} */
+
+#abu_div{      
+    background-color: hsl(199, 54%, 65%);
+    height: 100vh;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 0;
+}
+
+.main{
+    background-color: aliceblue;
+    margin: 20px 60px;
+}
+
+#btnContainer{
+    text-align: center;
+    margin: 1rem;
+}
+.buttons{
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: hsl(199, 54%, 35%);
+    color: aliceblue;
+    box-shadow: 5px 5px 10px;
+    margin: 2px;
+    margin-bottom: 10px;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: hsl(199, 54%, 55%);
+    cursor: pointer;
+}
+.buttons:active{
+    background-color: hsl(199, 54%, 85%);
+}
+
+.info{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px 40px;
+}
